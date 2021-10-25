@@ -31,3 +31,7 @@ totalInstalls = apps.reduce((previous, current) => {
 scoreHigherThan4 = apps.filter((app) => app.score > 4);
 
 // EXERCICIO 3: use map() para mudar o atributo appname para lowerCase
+allLowerCase = apps.map((app) => {
+  app.appname = app.appname.toLowerCase();
+  return app;
+});
