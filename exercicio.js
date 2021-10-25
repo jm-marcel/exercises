@@ -28,5 +28,6 @@ totalInstalls = apps.reduce((previous, current) => {
 }, 0);
 
 // EXERCICIO 2: use filter() para selecionar somente apps com score maior que quatro (> 4)
+scoreHigherThan4 = apps.filter((app) => app.score > 4);
 
 // EXERCICIO 3: use map() para mudar o atributo appname para lowerCase
